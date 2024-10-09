@@ -1,4 +1,4 @@
-import logo from "../assets/logo.svg";
+import logo from "../assets/cwlogo.png";
 
 const Header = ({children, theme, setTheme}) => {
     return (
