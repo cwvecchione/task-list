@@ -1,11 +1,11 @@
 import logo from "../assets/cwlogo.png";
 
-const Header = ({children, theme, setTheme}) => {
+const Header = ({theme, setTheme}) => {
     return (
         <header>
             <span className="logo">
                 <img src={logo} alt="" />
-                <span>{children}</span>
+                <span>Task Tracker</span>
             </span>
             <span className="themeSelector">
                 <span onClick={() => setTheme("light")} className={ theme === "light" ? "light activeTheme" : "light"}></span>
